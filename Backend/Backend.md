@@ -5,6 +5,8 @@
 	- User - модель пользователей, в который есть следующие поля:
 		- (Guid) id
 		- (string) Name
+		- (string) Login
+  		- (string) Password
 		- (string) PhoneNumber
 		- (Guid) CompanyId
 		- (bool) IsBoss (Если человек босс, то подразумевается, что он босс той компании, в которой работает)
